@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header, footer{
+    background-color: #222222;
+    color: #F3F3F3;
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    padding-left: 4%;
+}
+
+.logo img{
+    padding-right: 4%;
+}
+
+.pizza{
+    color: #39B24A;
+}
+
+.and{
+    color: #F3F3F3;
+}
+
+.front{
+    color: #FC200C;
+}
+
+.menu-header{
+    padding-right: 4%;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.menu-header a{
+    text-decoration: none;
+    color: #F3F3F3;
+}
+
+main{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E5E5;
+}
+
+.delivery{
+    width: 34%;
+    height: 86%;
+    background-image: url(../img/delivery.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 0.25%;
+    border-radius: 1%;
+}
+
+.delivery h2{
+    color: #FC200C;
+    padding-left: 6%;
+    padding-top: 5%;
+}
+
+.delivery h2 span{
+    color: #F3F3F3;
+}
+
+.podio{
+    width: 34%;
+    height: 86%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    margin-left: 0.25%;
+    border-radius: 1%;
+}
+
+.podio h2{
+    color: #FC200C;
+}
+
+.podio h3{
+    text-align: start;
+    width: 71%;
+}
+
+.img-podio{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+    height: 40%;
+    margin-top: -5%;
+}
+
+.img-podio img{
+    height: 129px;
+}
+
+.img-podio ol li {
+    padding: 4% 0%;
+    font-weight: 700;
+}
+
+.menu-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 4%;
+}
+
+.menu-footer a{
+    padding-bottom: 5%;
+    text-decoration: none;
+    color: #F3F3F3;
+}
+
+footer .logo{
+    margin-right: 2%;
+}
